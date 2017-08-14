@@ -163,4 +163,5 @@ RUN chmod +x ./start.sh
 EXPOSE 80 443
 
 #Start it
-ENTRYPOINT ["/start.sh"]
+#ENTRYPOINT ["/start.sh"]
+CMD ["/bin/bash", "/start.sh"]
